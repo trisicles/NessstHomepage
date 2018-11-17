@@ -1,0 +1,233 @@
+h1{ background:lightgrey;
+  Height:100px;
+  width:auto;
+ }
+ 
+ h3{
+   text-align:center;
+ }
+ 
+ a:link {
+     color:black ;
+ }
+ 
+ .links{ display:inline;
+    margin-left:40%
+ }
+ 
+ .navbar {
+   display: flex;
+   justify-content: space-around;
+   padding-left: 70px;
+   padding-right: 50px;
+   width: 500px;
+   align-items: center;
+ }
+ .nav {
+   display: flex;
+   flex:start;
+   flex-wrap: wrap;
+   height: 130px;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .slideshow-container{
+     margin: auto;
+     width: 50%;
+     width: 88vw;
+     border: 20px solid white;
+     padding: 0px;
+    
+ }
+ 
+ .flex-container{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 15px;
+   padding-right:50px;
+   margin: 35px;
+   justify-content: space-around;}
+  
+ .flex-item{
+   width: 22vw;
+   height: 42vh;
+ }
+ 
+ .workgallery{
+    display: flex;
+   flex-wrap: wrap;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin:20px;
+   justify-content: space-evenly;
+ }
+ 
+ .mySlides {
+     background: url("https://wallpapercave.com/wp/EacaKU1.jpg");
+   background-size: cover;
+   border-bottom: solid 50px;
+   border-color: #4C4C4C; 
+   height:500px;
+   width:88vw
+ }
+ 
+ .leftbtn{ 
+   float:left;
+   width:4%;
+ }
+ 
+ .rightbtn{
+   width:4%;
+   float:right;
+ }
+ 
+ body{
+   background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+   height:300px;
+   width:100vw;
+ }
+ 
+ .prev, .next {
+   cursor: pointer;
+   position: center ;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;}
+ 
+ .text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: ;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;}
+   
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;}
+ 
+ 
+ .galleryimg {
+   width: 100px;
+   height:50px;
+    margin-top: 20px;
+    margin-left: 10px;
+  
+ }
+ 
+ .footerbanner {
+   text-align: center;
+   background-color: grey;
+   background-blend-mode: multiply;
+   margin: 10px;
+   padding:10px;
+   width:95.6vw;
+   box-shadow: 0px 3px 10px grey;
+ }
+ 
+ .footban{
+   padding:10px;
+ }
+ 
+ .gallery { 
+   display: flex
+ }
+ 
+ footer {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   background-image: url('');
+   background-color: lightgrey;}
+ 
+ .blended{
+   background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+   background-color: #d6d2c5;
+   background-blend-mode: multiply;
+ }
+ 
+ 
+ .footerthirds {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+   width: 25%;
+   margin: 4%;
+ }
+ 
+ .footergallery {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-evenly;
+ }
+ 
+ .navbar {
+     display: flex;
+     justify-content: space-around;
+     padding-left: 0px;
+     padding-right: 0px;
+     width: 300px;
+     align-items: center;
+   }
+ 
+ .search {
+   font-size: 1.2em;
+   color: grey;
+   height: 30px;
+   width: 300px;
+   padding-top: 7px;
+   padding-left: 20px;
+   background-color: white;
+ }
+ 
+ .width {
+   width: 500px;
+ }
+ 
+ .twitter{
+   padding:0px 10px;
+   width:50px;
+   height:40px;
+ }
+ 
+ .twitter2{
+   float:right;
+   padding:0px 10px;
+   width:50px;
+   height:50px;
+   overflow: auto;
+   border-radius: 15px;
+ }
+ 
+ .vbtn{
+   margin-left:39.6vw;
+   padding-bottom:25px;
+ }
+ 
+ 
+ .btn{
+   text-align: center;
+ background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+   padding:10px 100px;
+   background-blend-mode:multiply; 
+   background-color: lightgrey;
+   width: 100px;
+   heighth: 40px;
+ }
+ 
+ .btn:hover{ 
+   color:white;
+ }
+ 
+ .view{
+   float: center;
+   blend:multiply;
+ }
