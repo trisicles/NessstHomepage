@@ -1,0 +1,186 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  body {
+    background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+  }
+  
+  #right, #left {
+    display: flex;
+    align-items: center;
+  }
+  
+  #left {
+    width: 40%;
+  }
+  
+  div#left a {
+    margin: 0 30px;
+  }
+  
+  #right {
+    flex-direction: column;
+  }
+  
+  .social {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  #slider {
+    position: relative;
+    height: 400px;
+    border: 10px solid white;
+    margin: 10px 30px;
+  }
+  
+  #slide {
+    height: 400px;
+    width: 100%;
+    display: block;
+    background: lightgrey;
+  }
+  
+  .arrows {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 175px
+  }
+  
+  #left-arrow {
+    left: -20px;
+  }
+  
+  #right-arrow {
+    right: -20px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 24px;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  main p {
+    font-size: 1.5em;
+  }
+  
+  .mainimg {
+    height: 200px;
+    width: 325px;
+    margin: 10px 10px;
+    background: #444;
+  }
+  
+  main a {
+    background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background-color: #a6a69d;
+      background-blend-mode: multiply;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    margin: 10px;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background-color: #a6a69d;
+      background-blend-mode: multiply;
+    height: 375px;
+  }
+  
+  #bar {
+    background: grey;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer div#bar img {
+    height: 25px;
+    margin: 0 15px;
+  }
+  
+  footer div h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  
+  footer div h4 span {
+    font-size: 11px;
+  }
+  
+  .box {
+    width: 415px;
+    height: 70%;
+    margin: 0 25px;
+  }
+  
+  #fnav {
+    margin: 0 auto;
+  }
+  
+  #fleft {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #search h3,h6 {
+    margin: 0 0;
+    
+  }
+  
+  .box h3, #rm, #vg {
+    color: #444;
+  }
+  
+  .box p, h6 {
+    color: #ddd;
+  }
+  
+  .box a {
+    text-decoration: none;
+  }
+  
+  #fgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .galleryimg {
+    height: 60px;
+    margin: 5px 5px;
+    background: #444;
+  }
